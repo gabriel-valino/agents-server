@@ -38,9 +38,10 @@ Content-Type: application/json
 
 # Create question
 # @name createQuestion
-POST {{baseUrl}}/rooms/{{roomId}}/questions
+POST {{baseUrl}}/rooms/5cb73b22-d065-4233-95cf-f0005e4cd7a0/questions
 Content-Type: application/json
 
 {
-  "question": "Qual o conceito de X dentro de Y"
+  "question": "O que é Vue.js e sua diferença em relação ao Angular?"
 }
+
